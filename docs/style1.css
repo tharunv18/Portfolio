@@ -66,6 +66,38 @@ h1{
     font-weight: 900; 
     color: #a48623;
 }
+h2{
+    display: block;
+    left: 70%;
+    display: block; 
+    font-size: 5em; 
+    font-weight: 900; 
+    color: #a48623;
+}
+h3{
+    display: block;
+    left: 70%;
+    display: block; 
+    font-size: 3em; 
+    font-weight: 900; 
+    color: #a48623;
+}
+h4{
+    display: block;
+    left: 70%;
+    display: block; 
+    font-size: 1em; 
+    font-weight: 900; 
+    color: #a48623;
+}
+h4{
+    display: block;
+    left: 70%;
+    display: block; 
+    font-size: 2em; 
+    font-weight: 900; 
+    color: #a48623;
+}
 
 a{
     font-size: 25px;
@@ -277,7 +309,7 @@ section {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 5rem;
   text-align: center;
 }
 
