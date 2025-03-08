@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+
+body{
+    overflow: hidden; 
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+	align-items: center;
+	height: 17vh;
+}
+
+.logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+b{
+    font-size: 70px;
+    color:#7f00ff;
+}
+
+.navItems{
+    display: flex;
+}
+
+.navItems li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navItems li a{
+    font-size: 25px;
+    color: #a48623; 
+    letter-spacing: 3px; 
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navItems li:hover a{
+    color:#3d535f;
+}
+
+.wrapper{
+    display: flex; 
+    width: 100%; 
+    height: calc(100vh - 80px);
+    justify-content: center; 
+    align-items: center;
+    padding: 0 10%; 
+    overflow: hidden;
+	background-color: black;
+} 
+
+.wrapper::before{
+    position: absolute;
+    content: '';
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    left: -12%;
+    top: 50%;
+    background-color: black;
+} 
+
+.wrapper::after{
+    position: absolute;
+    content: '';
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    left: 35%;
+    top: 50%;
+    background-color: black;
+} 
+
+
+.container{
+    background-color: black;
+} 
+ *
+.cols{
+    width: 50%;
+}
+
+.cols0{
+    width: 60%;
+    z-index: 5;
+}
+
+.topline{
+    display: block; 
+    position: relative; 
+    left: 10%;
+    font-size: 35px; 
+    letter-spacing: 5px; 
+    color:white;
+} 
+
+.topline::after{
+    position: absolute;
+    content: ''; 
+    height: 10px; 
+    width: 100px; 
+    bottom: 10px;
+    background-color:#7f00ff;
+} 
+
+h1{
+    display: block;
+    position: relative;
+    left: 10%;
+    display: block; 
+    font-size: 5em;
+}
+
+.multiText{
+    color:#a48623;
+    text-transform: capitalize;
+}
+
+.imgbox{
+    position: relative;
+    width: 150%; 
+    height: 150%;
+}
+
+a{
+    font-size: 25px;
+    color: #a48623; 
+    letter-spacing: 3px; 
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+a:hover{
+    color:#a48623;
+}
+

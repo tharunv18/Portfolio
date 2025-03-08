@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Page of Tharun Venkatesh</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+				<div class="unilogo">
+                    <img src="assets/waterloo.png" id="waterloo">
+                </div>
+            <div class="logo"><a href="index.html">Tharun's Home<b>.</b></a></div>
+            <ul class="navItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="assets/Resume.pdf" download="Tharun_Resume">Download Resume</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">I'm Tharun:</span>
+                <h1><span class="multiText"> Programmer</span></h1>
+            </div>
+            <div class="cols cols1">
+                <!-- <div class="imgbox">
+                    <img src="splash.png" id="splash">
+                </div> -->
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings : [" Programmer", " Web Developer", " Software Engineer", " Game Developer"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500,
+        })
+    </script>
+</body>
+</html>
